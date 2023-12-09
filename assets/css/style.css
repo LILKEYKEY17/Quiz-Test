@@ -1,0 +1,54 @@
+* { 
+    font-family: Georgia, Times, "Times New Roman", serif; 
+} 
+ 
+.quiz, 
+.scores { 
+    margin: 50px auto 0 auto; 
+    max-width: 400px; 
+} 
+ 
+p { 
+    margin: 15px 15px; 
+} 
+ 
+.landing { 
+    text-align: center; 
+} 
+ 
+.scoresHeader { 
+    position: absolute; 
+    top: 15px; 
+    left: 15px; 
+} 
+ 
+.timer { 
+    position: absolute; 
+    top: 15px; 
+    right: 15px; 
+} 
+ 
+button { 
+    display: inline-block; 
+    margin: 10px; 
+    cursor: pointer; 
+    color: #fff; 
+    background-color: purple; 
+    border-radius: 5px; 
+    border: 0; 
+    padding: 20px; 
+} 
+ 
+button:hover { 
+    background-color: darkorchid; 
+} 
+ 
+.options button { 
+    display: block; 
+} 
+ 
+ol { 
+    padding-left: 15px; 
+    max-height: 600px; 
+    overflow: auto; 
+} 
