@@ -52,3 +52,7 @@ ol {
     max-height: 600px; 
     overflow: auto; 
 } 
+
+.hide {
+    display: none;
+}
