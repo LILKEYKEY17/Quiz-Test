@@ -107,6 +107,7 @@ function checkForEnter(event) {
         ); 
     } 
 } 
+
 nameEl.onkeyup = checkForEnter;  
   
 submitBtn.onclick = saveHighscore; 
